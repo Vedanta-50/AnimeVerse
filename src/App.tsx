@@ -13,6 +13,7 @@ import { Anime, WatchlistStatus, WatchStatus } from './types';
 import { LOCAL_ANIME_DATA, GENRE_LIST, STUDIO_LIST } from './data/animeData';
 import { getTrendingAnime, getTopRatedAnime, getUpcomingAnime, searchAnime } from './services/api';
 import { Compass, Sparkles, Star, Calendar, RefreshCw, Trophy, Heart, Flame, Filter, Sliders, ChevronRight, Search } from 'lucide-react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('home');
@@ -665,6 +666,7 @@ export default function App() {
         />
       )}
 
+      <SpeedInsights />
     </div>
   );
 }
