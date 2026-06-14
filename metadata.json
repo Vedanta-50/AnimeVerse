@@ -1,0 +1,6 @@
+{
+  "name": "AnimeVerse",
+  "description": "A premium anime database, discovery, and community platform featuring active watch tracking, detailed anime & character directory, seasonal calendar, and an AI Anime Assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
